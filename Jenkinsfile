@@ -9,7 +9,7 @@ pipeline {
       }
       stage('Test') {
           steps {
-              sh './:)' // intentional error, should've been `sh './myProgram'`
+              sh './PES1UG20CS098.cpp:)' // intentional error, should've been `sh './myProgram'`
           }
       }
       stage('Deploy') {
